@@ -4,9 +4,7 @@ void main() {
   // Example using 'is'
   var number = 10;
   print('Checking with "is":');
-  if (number is int) {
-    print('number is an integer');
-  }
+  print('number is an integer');
 
   // Example using 'is!' (not of a type)
   var name = "Alice";

@@ -3,9 +3,7 @@ void main() {
   String data = 'Hello, Dart!';
 
   // === Using 'is' to check type ===
-  if (data is String) {
-    print("✅ 'data' is a String.");
-  }
+  print("✅ 'data' is a String.");
 
   // === Using 'is!' to check if NOT a type ===
   if (data is! int) {
@@ -13,6 +11,6 @@ void main() {
   }
 
   // === Using 'as' to cast the type ===
-  String message = data as String;
+  String message = data;
   print("Uppercased message: ${message.toUpperCase()}");
 }

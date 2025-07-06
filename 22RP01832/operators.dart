@@ -80,7 +80,7 @@ void main() {
   name ??= 'Alice';
   print('Name after ??= operator: $name');
 
-  int? length = name?.length;
+  int? length = name.length;
   print('Length of name: $length');
 
   // Uncomment if you're sure 'name' is not null

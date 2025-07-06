@@ -18,7 +18,7 @@ void main() {
 
   // 5. Null assertion (!), be careful: only use if you're 100% sure it's not null
   String? token = "token_aimable_123";
-  print("Token length: ${token!.length}");
+  print("Token length: ${token.length}");
 
   // 6. Safe access with ?. and null-aware default value with ??
   String? message;

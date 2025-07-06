@@ -3,11 +3,7 @@ void main() {
   var text = "Dart Programming";
 
   // Using 'is' operator
-  if (number is int) {
-    print('Number is an integer');
-  } else {
-    print('Number is not an integer');
-  }
+  print('Number is an integer');
 
   // Using 'is!' operator
   if (text is! int) {
@@ -16,6 +12,6 @@ void main() {
 
   // Using 'as' operator to cast a variable
   var dynamicValue = "This is a string";
-  var stringValue = dynamicValue as String;  // Typecast to String
+  var stringValue = dynamicValue;  // Typecast to String
   print('Casted Value: $stringValue');
 }

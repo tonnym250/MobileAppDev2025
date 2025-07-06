@@ -10,5 +10,5 @@ void main() {
   }
 
   var number = 100;
-  print((number as int) + 1); // Casting
+  print((number) + 1); // Casting
 }

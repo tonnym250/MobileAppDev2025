@@ -6,7 +6,7 @@ void main() {
     print('Value is an int');
     
     // Cast 'value' explicitly to int using 'as'
-    int intValue = value as int;
+    int intValue = value;
     print('Value multiplied by 2: ${intValue * 2}');
   }
 

@@ -27,7 +27,7 @@ void main() {
   // Example: check before casting
   print('\n--- Safe Casting Example ---');
   if (value3 is double) {
-    double num = value3 as double;
+    double num = value3;
     print('Safely casted value3 as double: $num');
   }
 }

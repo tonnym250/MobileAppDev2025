@@ -9,7 +9,7 @@ void main() {
   print("Nullable name: $nullableName"); // Output: null
 
   nullableName = "Dart User";
-  print("Updated name: ${nullableName!}"); // Use '!' to assert it's not null
+  print("Updated name: ${nullableName}"); // Use '!' to assert it's not null
 
   // === 2. Late Variables ===
   print("\n--- Late Variables ---");

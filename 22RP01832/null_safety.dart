@@ -6,7 +6,7 @@ void main() {
   message = 'Hello';
 
   // Safe access
-  print(message?.toUpperCase());
+  print(message.toUpperCase());
 
   // Null coalescing
   int? age;
